@@ -7,11 +7,14 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       <div className="absolute inset-0 bg-black">
         <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" />
       </div>
-      
+
       <div className="absolute inset-0 dark:bg-dot-white/[0.2] bg-dot-white/[0.15] flex items-center justify-center">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       </div>
@@ -40,7 +43,7 @@ export default function Hero() {
           >
             <h2 className="text-3xl md:text-5xl font-semibold text-white/90 mb-6">
               Making things that{" "}
-              <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
                 makes the difference
               </span>
             </h2>
@@ -53,14 +56,14 @@ export default function Hero() {
             className="space-y-6"
           >
             <h3 className="text-2xl md:text-4xl font-bold text-white">
-              Building Tomorrow{" "}
-              <span className="text-blue-400">Today</span>
+              Building Tomorrow <span className="text-blue-400">Today</span>
             </h3>
             <p className="text-xl md:text-2xl text-white/70 max-w-3xl mx-auto">
               Building a Brighter Future for Web Developers and Beyond
             </p>
             <p className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto">
-              Revolutionizing Computer Technology and Community Learning in Nigeria
+              Revolutionizing Computer Technology and Community Learning in
+              Nigeria
             </p>
           </motion.div>
 
@@ -73,12 +76,12 @@ export default function Hero() {
             <Link href="#products">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-6 text-lg"
+                className="bg-linear-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-6 text-lg"
               >
                 Explore Our Products
               </Button>
             </Link>
-            <Link href="#community">
+            <Link href="https://chat.whatsapp.com/KpCDIxLwefu114E17AtiOr">
               <Button
                 size="lg"
                 variant="outline"

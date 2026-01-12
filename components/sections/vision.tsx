@@ -30,8 +30,8 @@ export default function Vision() {
 
   return (
     <section ref={ref} className="py-32 bg-background relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-500/5 to-transparent"></div>
-      
+      <div className="absolute inset-0 bg-linear-to-b from-purple-500/5 to-transparent"></div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,12 +39,13 @@ export default function Vision() {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Where Vision Meets Reality
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            At C Technology, we&apos;re not just creating products, we&apos;re crafting
-            solutions that redefine the way we interact with technology.
+            At C Technology, we&apos;re not just creating products, we&apos;re
+            crafting solutions that redefine the way we interact with
+            technology.
           </p>
         </motion.div>
 

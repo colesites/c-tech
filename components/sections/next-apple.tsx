@@ -17,7 +17,8 @@ const qualities = [
   },
   {
     title: "Customer-First Approach",
-    description: "We listen to our users and build solutions that solve real problems.",
+    description:
+      "We listen to our users and build solutions that solve real problems.",
   },
   {
     title: "Ecosystem Thinking",
@@ -31,9 +32,12 @@ export default function NextApple() {
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   return (
-    <section ref={ref} className="py-32 bg-black text-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-blue-900/20"></div>
-      
+    <section
+      ref={ref}
+      className="py-32 bg-black text-white relative overflow-hidden"
+    >
+      <div className="absolute inset-0 bg-linear-to-br from-purple-900/20 via-black to-blue-900/20"></div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -43,16 +47,17 @@ export default function NextApple() {
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             The Next{" "}
-            <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               Apple
             </span>{" "}
             Is Here
           </h2>
           <p className="text-xl text-white/70 max-w-4xl mx-auto">
-            As we set our sights on becoming the next tech giant, we&apos;re committed
-            to delivering groundbreaking products that resonate with your needs
-            and aspirations. From cutting-edge devices to transformative software,
-            we&apos;re here to push boundaries and elevate your tech experience.
+            As we set our sights on becoming the next tech giant, we&apos;re
+            committed to delivering groundbreaking products that resonate with
+            your needs and aspirations. From cutting-edge devices to
+            transformative software, we&apos;re here to push boundaries and
+            elevate your tech experience.
           </p>
         </motion.div>
 
@@ -69,15 +74,15 @@ export default function NextApple() {
             What Makes A Company The Next Apple?
           </p>
           <p className="text-xl text-center text-white/80 max-w-4xl mx-auto">
-            It&apos;s not just about building great products – it&apos;s about creating a
-            brand that People{" "}
+            It&apos;s not just about building great products – it&apos;s about
+            creating a brand that People{" "}
             <span className="text-blue-400 font-bold">Trust</span>,{" "}
             <span className="text-purple-400 font-bold">Love</span>, And{" "}
             <span className="text-pink-400 font-bold">Want To Be Part Of</span>
           </p>
           <p className="text-lg text-center text-white/70 max-w-3xl mx-auto mt-6">
-            At <span className="font-bold">C Technology</span>, we&apos;re taking all
-            the right steps to become that brand.
+            At <span className="font-bold">C Technology</span>, we&apos;re
+            taking all the right steps to become that brand.
           </p>
         </motion.div>
 
