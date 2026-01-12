@@ -10,18 +10,18 @@ export default function CTechLearn() {
 
   return (
     <section ref={ref} className="py-32 bg-background relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-transparent to-purple-500/10"></div>
+      <div className="absolute inset-0 bg-linear-to-br from-blue-500/10 via-transparent to-purple-500/10"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-20"
+          className="text-left md:text-center mb-20"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             Our Roadmap:{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Building for the Future
             </span>
           </h2>
@@ -37,7 +37,7 @@ export default function CTechLearn() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <Card className="p-8 md:p-12 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-950/30 dark:to-purple-950/30 border-2 border-blue-200 dark:border-blue-800">
+          <Card className="p-8 md:p-12 bg-linear-to-br from-blue-50 to-purple-50 dark:from-blue-950/30 dark:to-purple-950/30 border-2 border-blue-200 dark:border-blue-800">
             <div className="flex items-center gap-4 mb-6">
               <div className="text-5xl">📚</div>
               <h3 className="text-3xl md:text-5xl font-bold">C Tech Learn</h3>
@@ -78,7 +78,7 @@ export default function CTechLearn() {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-20 text-center"
+          className="mt-20 text-left md:text-center"
         >
           <h3 className="text-3xl md:text-4xl font-bold mb-6">
             Towards a Brighter Future in Tech
@@ -89,7 +89,7 @@ export default function CTechLearn() {
             by creating cutting-edge tech devices and software solutions. Join us on
             this exciting journey as we make a meaningful impact in the tech world.
           </p>
-          <div className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
+          <div className="text-4xl md:text-6xl font-bold bg-linear-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
             Transform Your Passion Into Reality
           </div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">

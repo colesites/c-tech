@@ -18,7 +18,7 @@ export default function Community() {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-left md:text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-8">
             Join a{" "}
@@ -51,14 +51,14 @@ export default function Community() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mb-20"
         >
-          <h3 className="text-3xl md:text-5xl font-bold text-center mb-8">
+          <h3 className="text-3xl md:text-5xl font-bold text-left md:text-center mb-8">
             Join Us in{" "}
             <span className="text-blue-400">Shaping the Future of Tech!</span>
           </h3>
-          <p className="text-xl text-center text-white/80 mb-6">
+          <p className="text-xl text-left md:text-center text-white/80 mb-6">
             Be Part of Something Bigger!
           </p>
-          <p className="text-lg text-center text-white/70 max-w-4xl mx-auto">
+          <p className="text-lg text-left md:text-center text-white/70 max-w-4xl mx-auto">
             We&apos;re not just building a company, We&apos;re more than a tech company.
             We&apos;re a catalyst for change, a pioneer of innovation, and a builder of
             dreams.
@@ -69,13 +69,13 @@ export default function Community() {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-center mb-12"
+          className="text-left md:text-center mb-12"
         >
           <h3 className="text-3xl md:text-4xl font-bold mb-6">
             We&apos;re building a{" "}
             <span className="text-purple-400">movement.</span>
           </h3>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto">
+          <p className="text-xl text-left md:text-center text-white/80 max-w-3xl mx-auto">
             A movement driven by the belief that technology can make the world a
             better place.
           </p>
@@ -85,16 +85,16 @@ export default function Community() {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-center mb-16"
+          className="text-left md:text-center mb-16"
         >
-          <p className="text-lg text-white/70 max-w-3xl mx-auto mb-8">
+          <p className="text-lg text-left md:text-center text-white/70 max-w-3xl mx-auto mb-8">
             We&apos;re inviting visionary investors, talented creators, and passionate
             users to join us on this journey.
           </p>
           <h3 className="text-3xl md:text-5xl font-bold mb-6">
             Together, we&apos;re shaping a future
           </h3>
-          <div className="space-y-4">
+          <div className="space-y-4 text-left md:text-center">
             <p className="text-2xl md:text-4xl font-bold tracking-wider">
               that&apos;s{" "}
               <span className="text-blue-400">smarter</span>
@@ -110,7 +110,7 @@ export default function Community() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-center"
+          className="text-left md:text-center"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-4">
             Welcome to the future.

@@ -37,7 +37,7 @@ export default function Vision() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-20"
+          className="text-left md:text-center mb-20"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Where Vision Meets Reality
@@ -55,10 +55,10 @@ export default function Vision() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mb-20"
         >
-          <h3 className="text-3xl md:text-5xl font-bold text-center mb-6">
+          <h3 className="text-3xl md:text-5xl font-bold text-left md:text-center mb-6">
             Shaping Tomorrow Together
           </h3>
-          <p className="text-lg text-center text-muted-foreground max-w-4xl mx-auto">
+          <p className="text-lg text-left md:text-center text-muted-foreground max-w-4xl mx-auto">
             Join C Technology to shape the future! Be part of our journey to
             empower lives and drive innovation as we launch transformative
             products.

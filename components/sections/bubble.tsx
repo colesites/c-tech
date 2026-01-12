@@ -24,7 +24,7 @@ export default function Bubble() {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-left md:text-center mb-16"
         >
           <h2 className="text-5xl md:text-7xl font-bold mb-8 tracking-wider">
             Introducing{" "}
@@ -59,7 +59,7 @@ export default function Bubble() {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="max-w-4xl mx-auto text-center mb-16"
+          className="max-w-4xl mx-auto text-left md:text-center mb-16"
         >
           <h3 className="text-3xl md:text-4xl font-bold mb-6">
             Meet Bubble, our revolutionary social media platform.
@@ -86,7 +86,7 @@ export default function Bubble() {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-center"
+          className="text-left md:text-center"
         >
           <Button
             size="lg"

@@ -43,7 +43,7 @@ export default function NextApple() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-20"
+          className="text-left md:text-center mb-20"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             The Next{" "}
@@ -67,20 +67,20 @@ export default function NextApple() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mb-20"
         >
-          <h3 className="text-3xl md:text-4xl font-bold text-center mb-6">
+          <h3 className="text-3xl md:text-4xl font-bold text-left md:text-center mb-6">
             Why We Will Be The Next Apple
           </h3>
-          <p className="text-lg text-center text-white/60 max-w-3xl mx-auto mb-4">
+          <p className="text-lg text-left md:text-center text-white/60 max-w-3xl mx-auto mb-4">
             What Makes A Company The Next Apple?
           </p>
-          <p className="text-xl text-center text-white/80 max-w-4xl mx-auto">
+          <p className="text-xl text-left md:text-center text-white/80 max-w-4xl mx-auto">
             It&apos;s not just about building great products – it&apos;s about
             creating a brand that People{" "}
             <span className="text-blue-400 font-bold">Trust</span>,{" "}
             <span className="text-purple-400 font-bold">Love</span>, And{" "}
             <span className="text-pink-400 font-bold">Want To Be Part Of</span>
           </p>
-          <p className="text-lg text-center text-white/70 max-w-3xl mx-auto mt-6">
+          <p className="text-lg text-left md:text-center text-white/70 max-w-3xl mx-auto mt-6">
             At <span className="font-bold">C Technology</span>, we&apos;re
             taking all the right steps to become that brand.
           </p>
@@ -90,7 +90,7 @@ export default function NextApple() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-3xl font-bold text-center mb-12"
+          className="text-3xl font-bold text-left md:text-center mb-12"
         >
           Here&apos;s How We Are Doing It
         </motion.h4>

@@ -86,7 +86,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border pt-8 text-center">
+        <div className="border-t border-border pt-8 text-left md:text-center">
           <p className="text-muted-foreground text-sm">
             © Copyright {new Date().getFullYear()}. C Tech All Rights Reserved.
           </p>
