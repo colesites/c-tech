@@ -163,9 +163,6 @@ export default function Navigation() {
 
               <div className="px-6 pt-24 pb-10 flex-1 flex flex-col gap-10 overflow-y-auto">
                 <div className="flex flex-col gap-4">
-                  <p className="text-xs uppercase tracking-[0.45em] text-white/40">
-                    Navigate
-                  </p>
                   <div className="flex flex-col gap-3">
                     {navLinks.map((link) => (
                       <Link
